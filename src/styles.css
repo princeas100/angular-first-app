@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.column-card {
+  margin-bottom: 2rem;
+}
+
+.column-row {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.data-table {
+  width: 100%;
+  overflow-x: auto;
+  
+  table {
+    width: 100%;
+  }
+}
+
+.button-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
